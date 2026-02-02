@@ -1,0 +1,43 @@
+{
+    "name": "Atlas Secure",
+    "description": "6214188086 • Нажмите ↻, если не работает VPN",
+    "expires": "2026-02-05T18:45:00Z",
+    "outbounds": [
+        {
+            "type": "vless",
+            "tag": "🇳🇱 Нидерланды",
+            "server": "NL_IP",
+            "server_port": 443,
+            "uuid": "UUID",
+            "security": "reality",
+            "sni": "www.cloudflare.com",
+            "fp": "ios",
+            "pbk": "PUBLIC_KEY",
+            "sid": "12345678"
+        },
+        {
+            "type": "vless",
+            "tag": "🇪🇺 LTE — Белый список ⚡️",
+            "server": "LTE_IP",
+            "server_port": 443,
+            "uuid": "UUID",
+            "security": "reality",
+            "sni": "www.cloudflare.com",
+            "fp": "ios",
+            "pbk": "PUBLIC_KEY",
+            "sid": "12345678"
+        },
+        {
+            "type": "vless",
+            "tag": "🇩🇪 Германия",
+            "server": "DE_IP",
+            "server_port": 443,
+            "uuid": "UUID",
+            "security": "reality",
+            "sni": "www.cloudflare.com",
+            "fp": "ios",
+            "pbk": "PUBLIC_KEY",
+            "sid": "12345678"
+        }
+    ]
+}
