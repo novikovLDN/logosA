@@ -10,7 +10,7 @@
       "tag": "Atlas Secure VPN",
       "server": "172.86.67.9",
       "server_port": 443,
-      "uuid": "609f1aa0-4b8d-430b-993e-4637a60eb18e",
+      "uuid": "b6d03aa7-7685-41e8-9ed4-3dadc9f56389",
       "flow": "xtls-rprx-vision",
 
       "tls": {
