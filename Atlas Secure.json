@@ -1,19 +1,36 @@
 {
-    "name": "Atlas Secure",
-    "description": "6214188086 • Нажмите ↻, если не работает VPN",
-    "expires": "2026-02-05T18:45:00Z",
-    "outbounds": [
-        {
-            "type": "vless",
-            "tag": "🇪🇺 Atlas Secure VPN ⚡️",
-            "server": "NL_IP",
-            "server_port": 443,
-            "uuid": "UUID",
-            "security": "reality",
-            "sni": "www.cloudflare.com",
-            "fp": "ios",
-            "pbk": "94tcx8P-3crWmyck_wBE6fI7hLd63uSY5uk04xhAYmI",
-            "sid": "12345678"
+  "name": "Atlas Secure",
+  "icon": "https://raw.githubusercontent.com/novikovLDN/logosA/main/logo.png",
+  "website": "https://t.me/atlas_secure",
+  "support": "https://t.me/atlas_support",
+
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "Atlas Secure VPN",
+      "server": "172.86.67.9",
+      "server_port": 443,
+      "uuid": "609f1aa0-4b8d-430b-993e-4637a60eb18e",
+      "flow": "xtls-rprx-vision",
+      "packet_encoding": "xudp",
+
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "94tcx8P-3crWmyck_wBE6fI7hLd63uSY5uk04xhAYmI",
+          "short_id": "12345678"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
         }
-    ]
+      },
+
+      "transport": {
+        "type": "tcp"
+      }
+    }
+  ]
 }
