@@ -1,0 +1,24 @@
+{
+    "version": 1,
+    "name": "AtlasSecure",
+    "remarks": "AtlasSecure",
+    "icon": "https://raw.githubusercontent.com/novikovLDN/logosA/main/logo.png",
+    "website": "https://t.me/atlassecure_bot",
+    "support": "https://t.me/asc_support",
+    "nodes": [
+        {
+            "name": "AtlasSecure",
+            "type": "vless",
+            "server": "172.86.67.9",
+            "port": 443,
+            "uuid": "609f1aa0-4b8d-430b-993e-4637a60eb18e",
+            "encryption": "none",
+            "network": "tcp",
+            "security": "reality",
+            "sni": "www.cloudflare.com",
+            "fp": "ios",
+            "pbk": "94tcx8P-3crWmyck_wBE6fI7hLd63uSY5uk04xhAYmI",
+            "sid": "12345678"
+        }
+    ]
+}
