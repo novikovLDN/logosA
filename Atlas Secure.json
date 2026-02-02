@@ -5,38 +5,14 @@
     "outbounds": [
         {
             "type": "vless",
-            "tag": "🇳🇱 Нидерланды",
+            "tag": "🇪🇺 Atlas Secure VPN ⚡️",
             "server": "NL_IP",
             "server_port": 443,
             "uuid": "UUID",
             "security": "reality",
             "sni": "www.cloudflare.com",
             "fp": "ios",
-            "pbk": "PUBLIC_KEY",
-            "sid": "12345678"
-        },
-        {
-            "type": "vless",
-            "tag": "🇪🇺 LTE — Белый список ⚡️",
-            "server": "LTE_IP",
-            "server_port": 443,
-            "uuid": "UUID",
-            "security": "reality",
-            "sni": "www.cloudflare.com",
-            "fp": "ios",
-            "pbk": "PUBLIC_KEY",
-            "sid": "12345678"
-        },
-        {
-            "type": "vless",
-            "tag": "🇩🇪 Германия",
-            "server": "DE_IP",
-            "server_port": 443,
-            "uuid": "UUID",
-            "security": "reality",
-            "sni": "www.cloudflare.com",
-            "fp": "ios",
-            "pbk": "PUBLIC_KEY",
+            "pbk": "94tcx8P-3crWmyck_wBE6fI7hLd63uSY5uk04xhAYmI",
             "sid": "12345678"
         }
     ]
